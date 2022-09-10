@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/commentROWW"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/default_image"/>
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_toRightOf="@id/avatarIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/commentTv"
+            android:layout_below="@id/nameTv"
+            android:layout_toEndOf="@id/avatarIv"
+            android:text="Here lies the comment "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="match_parent"
+            android:text="12/10/2019"
+            android:layout_below="@id/commentTv"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/avatarIv"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

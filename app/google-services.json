@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "971059687131",
+    "firebase_url": "https://final-eye-locate.firebaseio.com",
+    "project_id": "final-eye-locate",
+    "storage_bucket": "final-eye-locate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971059687131:android:9ed4ac1d1f751bc2",
+        "android_client_info": {
+          "package_name": "com.example.user.eyelocate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971059687131-r6rasfn3ngqp58lun8mjoobuu8u9epg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.eyelocate",
+            "certificate_hash": "c73a08fca9f6880ab05615c79607cea2de6b62b2"
+          }
+        },
+        {
+          "client_id": "971059687131-5o733je8nd01p3mst613c593hsobkibr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhiQkaSDEroZNN-3A_E__JqR6n6ajqyTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971059687131-5o733je8nd01p3mst613c593hsobkibr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

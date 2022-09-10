@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="3dp"
+     >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileIv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_image"/>
+
+
+        <ImageView
+            android:id="@+id/online_statusIv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+
+        <TextView
+            android:id="@+id/nameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="His Name"
+            android:layout_marginStart="4dp"
+        android:textSize="16sp"
+        android:layout_toEndOf="@id/profileIv"/>
+
+        <TextView
+            android:id="@+id/lastMessageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:maxLines="2"
+            android:text="The last Message sent"
+            android:layout_toEndOf="@id/profileIv"
+            android:layout_below="@id/nameTv"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
